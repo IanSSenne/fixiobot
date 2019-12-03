@@ -1,0 +1,388 @@
+{
+	"challenge": {
+		"perm": "none",
+		"target": "challenge.js"
+	},
+	"tsdiscord": {
+		"perm": "none",
+		"target": "tsdiscord.js"
+	},
+	"discord": {
+		"perm": "none",
+		"target": "discord.js"
+	},
+	"color": {
+		"perm": "mod",
+		"target": "color.js",
+		"config": {
+			"valid": [
+				"Blue",
+				"BlueViolet",
+				"CadetBlue",
+				"Chocolate",
+				"Coral",
+				"DodgerBlue",
+				"Firebrick",
+				"GoldenRod",
+				"Green",
+				"HotPink",
+				"OrangeRed",
+				"Red",
+				"SeaGreen",
+				"SpringGreen",
+				"YellowGreen",
+				"blue",
+				"blueviolet",
+				"cadetblue",
+				"chocolate",
+				"coral",
+				"dodgerblue",
+				"firebrick",
+				"goldenrod",
+				"green",
+				"hotpink",
+				"orangered",
+				"red",
+				"seagreen",
+				"springgreen",
+				"yellowgreen"
+			]
+		}
+	},
+	"colour": {
+		"perm": "mod",
+		"target": "color.js",
+		"config": {
+			"valid": [
+				"Blue",
+				"BlueViolet",
+				"CadetBlue",
+				"Chocolate",
+				"Coral",
+				"DodgerBlue",
+				"Firebrick",
+				"GoldenRod",
+				"Green",
+				"HotPink",
+				"OrangeRed",
+				"Red",
+				"SeaGreen",
+				"SpringGreen",
+				"YellowGreen",
+				"blue",
+				"blueviolet",
+				"cadetblue",
+				"chocolate",
+				"coral",
+				"dodgerblue",
+				"firebrick",
+				"goldenrod",
+				"green",
+				"hotpink",
+				"orangered",
+				"red",
+				"seagreen",
+				"springgreen",
+				"yellowgreen"
+			]
+		}
+	},
+	"twitter": {
+		"perm": "none",
+		"target": "twitter.js"
+	},
+	"youtube": {
+		"perm": "none",
+		"target": "youtube.js"
+	},
+	"yt": {
+		"perm": "none",
+		"target": "youtube.js"
+	},
+	"fixio": {
+		"perm": "none",
+		"target": "fixio.js"
+	},
+	"breakio": {
+		"perm": "none",
+		"target": "breakio.js"
+	},
+	"settio": {
+		"perm": "mod",
+		"target": "settio.js"
+	},
+	"clip": {
+		"perm": "none",
+		"target": "clip.js"
+	},
+	"8ball": {
+		"perm": "none",
+		"__comment__": "make perm bits100",
+		"target": "8ball.js",
+		"config": {
+			"dark_takeover": "PowerUpL DarkMode PowerUpR I have possesed 8ball!!! ",
+			"messages": [
+				"Nope, there is definatelly no way that will happen",
+				"There is a good likelyhood of that.",
+				"Yes.",
+				"No.",
+				"Maybe...",
+				"Ask your mum!",
+				"I have the best words, and they say NO!!!",
+				"I have the best words, and they say YES!!!",
+				"I have the best words, and they say MAYBE!!!",
+				"That has a ${Math.floor(Math.random()*100)}% chance!",
+				"Once upon a time the answer was NO!",
+				"Once upon a time the answer was YES!",
+				"I am not here",
+				"You talking to me?",
+				"I'm busy",
+				"Ask fixio",
+				"I am breakio",
+				"When will I be fixio?",
+				"Ill be back in a moment, right after I consult my 8ball.",
+				"404, bot not found.",
+				"All signs point to yes...",
+				"Yes!",
+				"My sources say nope.",
+				"You may rely on it.",
+				"Concentrate and ask again...",
+				"Outlook not so good...",
+				"It is decidedly so!",
+				"Better not tell you.",
+				"Very doubtful.",
+				"Yes - Definitely!",
+				"It is certain!",
+				"Most likely.",
+				"Ask again later.",
+				"No!",
+				"Outlook good.",
+				"Don't count on it.",
+				"Yes!",
+				"true",
+				"No!",
+				"false",
+				"Definatelly!",
+				"Negative!",
+				"Its a GO!",
+				"Affirmative!",
+				"The 8ball Is aproving",
+				"I think NOT!",
+				"Ask Darkball!"
+			]
+		}
+	},
+	"darkball": {
+		"perm": "bits100",
+		"__comment__": "make perm bits100",
+		"target": "darkball.js",
+		"cooldown": "1m",
+		"cooldown_message": [
+			"You can't do darkball this soon... The PowerUpL master PowerUpR is still mixing the DarkMode elixir! <time> left",
+			"PowerUpL DarkMode PowerUpR <time>",
+			"C'mon you just have to wait <time>"
+		],
+		"config": {
+			"messages": [
+				"There is a good likelihood of that.",
+				"Yes.",
+				"All signs point to yes...",
+				"Yes!",
+				"You may rely on it.",
+				"It is decidedly so!",
+				"Yes - Definitely!",
+				"It is certain!",
+				"Outlook rosy.",
+				"Most certainly.",
+				"Definitely!",
+				"Affirmative!",
+				"Absolutely.",
+				"The council has voted in favor of the motion.",
+				"Positively so.",
+				"Correct!",
+				"Agreed…",
+				"Chances are it's a yes.",
+				"Seems likely.",
+				"Yessir!",
+				"Yes Ma'am!",
+				"I concur.",
+				"Decidedly likely.",
+				"A definite yes.",
+				"Undoubtedly so.",
+				"A certainty if I've ever seen one.",
+				"No question, an emphatic yes.",
+				"No.",
+				"Beliar says no.",
+				"Outlook grim...",
+				"Improbable.",
+				"No!",
+				"Don't count on it.",
+				"Negative!",
+				"I think NOT!",
+				"Absolutely Not!",
+				"NEIN!",
+				"NEIN NEIN NEIN!",
+				"This is a negative response!",
+				"The council has voted against the motion.",
+				"Lilith says no and I trust her.",
+				"I don’t think so, friend.",
+				"You're wrong.",
+				"WRONG!",
+				"Unlikely prospect.",
+				"No way, Sir!",
+				"No way, Ma'am!",
+				"Most certainly not.",
+				"No chance.",
+				"Emphatically not.",
+				"You're delusional, the answer is no.",
+				"I disagree with you, and that's all that matters.",
+				"The master says no. How convenient that the master is me.",
+				"The answer is... no.",
+				"Perhaps...",
+				"That has a ${Math.floor(Math.random()*100)}% chance!",
+				"666, We welcome you down here.",
+				"You don’t want to know.",
+				"You will know when you are dead!",
+				"Plausible.",
+				"Try again when you have collected more souls.",
+				"Corruption!",
+				"Slander!",
+				"Ask 8ball, this question is beneath me!"
+			]
+		}
+	},
+	"darkmode": {
+		"perm": "bits100",
+		"target": "darkmode.js",
+		"cooldown": "1m",
+		"cooldown_message": [
+			"You can't do dark mode this soon... The PowerUpL master PowerUpR is still mixing the DarkMode elixir! <time> left",
+			"PowerUpL DarkMode PowerUpR <time>",
+			"C'mon you just have to wait <time>"
+		]
+	},
+	"yawn": {
+		"config": {
+			"yawn_message_genaric": "ResidentSleeper Mike neeeeeds Covfefe!! ResidentSleeper ",
+			"yawn_message_specific": "ResidentSleeper ${user} neeeeeds Covfefe!! ResidentSleeper "
+		},
+		"perm": "none",
+		"target": "yawn.js"
+	},
+	"help": {
+		"perm": "none",
+		"target": "help.js"
+	},
+	"commands": {
+		"perm": "none",
+		"target": "help.js"
+	},
+	"crash": {
+		"perm": "glEnd2",
+		"target": "yawn.js",
+		"config": {
+			"isCrashCommand": true
+		}
+	},
+	"debug": {
+		"perm": "glEnd2",
+		"target": "debug.js"
+	},
+	"getfixio": {
+		"perm": "none",
+		"target": "getfixio.js"
+	},
+	"death": {
+		"perm": "none",
+		"target": "deathcount.js"
+	},
+	"game": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "THRUSTY SHIP - OUT NOW - https://store.steampowered.com/app/942520/Thrusty_Ship/"
+		}
+	},
+	"ts": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "THRUSTY SHIP - OUT NOW - https://store.steampowered.com/app/942520/Thrusty_Ship/"
+		}
+	},
+	"thrusty": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "THRUSTY SHIP - OUT NOW - https://store.steampowered.com/app/942520/Thrusty_Ship/"
+		}
+	},
+	"ship": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "THRUSTY SHIP - OUT NOW - https://store.steampowered.com/app/942520/Thrusty_Ship/"
+		}
+	},
+	"steam": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "THRUSTY SHIP - OUT NOW - https://store.steampowered.com/app/942520/Thrusty_Ship/"
+		}
+	},
+	"thrustyship": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "THRUSTY SHIP - OUT NOW - https://store.steampowered.com/app/942520/Thrusty_Ship/"
+		}
+	},
+	"ld": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "Add your LD44 game to the list - https://docs.google.com/spreadsheets/d/1ew9J4kvmaT_tSKGDRKDmZuOQTdXg6O0lHK6udtmUuso/edit?usp=sharing"
+		}
+	},
+	"list": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "Add your LD44 game to the list - https://docs.google.com/spreadsheets/d/1ew9J4kvmaT_tSKGDRKDmZuOQTdXg6O0lHK6udtmUuso/edit?usp=sharing"
+		}
+	},
+	"queue": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "Add your LD44 game to the list - https://docs.google.com/spreadsheets/d/1ew9J4kvmaT_tSKGDRKDmZuOQTdXg6O0lHK6udtmUuso/edit?usp=sharing"
+		}
+	},
+	"submit": {
+		"perm": "none",
+		"target": "generic.js",
+		"config": {
+			"message": "Add your LD44 game to the list - https://docs.google.com/spreadsheets/d/1ew9J4kvmaT_tSKGDRKDmZuOQTdXg6O0lHK6udtmUuso/edit?usp=sharing"
+		}
+	},
+	"so": {
+		"config": {
+			"shoutout_specific": "Check out ${user}'s Twitch channel!"
+		},
+		"perm": "none",
+		"target": "shoutout.js"
+	},
+	"shoutout": {
+		"config": {
+			"shoutout_specific": "Check out ${user}'s Twitch channel!"
+		},
+		"perm": "none",
+		"target": "shoutout.js"
+	},
+	"create-genaric": {
+		"config": {},
+		"perm": "mod",
+		"target": "create-genaric.js"
+	}
+}
